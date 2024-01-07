@@ -1,0 +1,24 @@
+
+
+  
+<div class="card" *ngIf="cartService.getSelectedUser()">
+  <div class="card-body">
+    <h4 class="card-title">Kullanıcı Adı: {{ cartService.getSelectedUser()?.fullName }}</h4>
+    <p class="card-text">Ürünler</p>
+    <div *ngFor="let item of cartService.getUserCart()?.items" class="row">
+      <div class="col-6">
+        <p>Ürün: {{ item.productName }}</p>
+        <p>Ürün: {{ item.productPrice }}</p>
+        <button class="btn btn-sm btn-success" (click)="cartService.ziadatratib(item.productId); this.cartService.calculations();">+</button>
+        <button class="btn btn-sm btn-warning" (click)="cartService.decrement(item.productId)">-</button>
+        <button class="btn btn-danger" (click)="cartService.removeItem(item.productId)">Remove</button>
+      </div>
+      <div class="col-6">
+        <input type="number" min="1" [(ngModel)]="item.count" class="form-control" (change)="cartService.calculations()" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  

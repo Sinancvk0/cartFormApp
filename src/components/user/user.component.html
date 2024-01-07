@@ -1,0 +1,27 @@
+<!-- 
+<div class="alert alert-success" *ngIf="getSelectedUser()!=undefined">{{getSelectedUser()?.fullName??''}} kullanıcısı seçildi.</div>
+<div class="alert alert-danger" *ngIf="getSelectedUser()==undefined">Lütfen kullanıcı seçiniz.</div> 
+-->
+<div
+    class="table-responsive"
+>
+    <table
+        class="table table-primary"
+    >
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Full Name</th>
+                <th>Select</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td scope="row">{{user.id}}</td>
+                <td>{{user.fullName}}</td>
+                <td><button *ngIf="getSelectedUser()?.id!=user.id" class="btn btn-primary" (click)="selectUser(user)">Select</button></td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "categoryId": 3,
+    "name": "Refined Steel Tuna",
+    "price": 75.34,
+    "image": {
+      "id": 7231,
+      "small": "http://picsum.photos/100/100",
+      "medium": "http://picsum.photos/200/200",
+      "large": "http://picsum.photos/300/300"
+    },
+    "description": "Velit eos similique odio magni eius odio vitae.",
+    "createdDate": "2022-05-10T01:42:05.889Z",
+    "isActive": false
+  },
+  {
+    "id": 2,
+    "categoryId": 2,
+    "name": "Awesome Fresh Shoes",
+    "price": 49.58,
+    "image": {
+      "id": 5379,
+      "small": "http://picsum.photos/100/100",
+      "medium": "http://picsum.photos/200/200",
+      "large": "http://picsum.photos/300/300"
+    },
+    "description": "Et qui tempora neque aut error quae et.",
+    "createdDate": "2022-04-22T12:28:39.475Z",
+    "isActive": true
+  },
+  {
+    "id": 3,
+    "categoryId": 5,
+    "name": "Generic Steel Pizza",
+    "price": 90.65,
+    "image": {
+      "id": 9364,
+      "small": "http://picsum.photos/100/100",
+      "medium": "http://picsum.photos/200/200",
+      "large": "http://picsum.photos/300/300"
+    },
+    "description": "Tempore qui voluptatem voluptatem odio dolorem.",
+    "createdDate": "2022-04-07T09:07:32.726Z",
+    "isActive": true
+  },
+  {
+    "id": 4,
+    "categoryId": 1,
+    "name": "Licensed Wooden Cheese",
+    "price": 29.51,
+    "image": {
+      "id": 5718,
+      "small": "http://picsum.photos/100/100",
+      "medium": "http://picsum.photos/200/200",
+      "large": "http://picsum.photos/300/300"
+    },
+    "description": "Qui vel voluptatibus et est molestiae.",
+    "createdDate": "2022-02-14T03:47:56.173Z",
+    "isActive": false
+  },
+  {
+    "id": 5,
+    "categoryId": 1,
+    "name": "Generic Rubber Keyboard",
+    "price": 42.47,
+    "image": {
+      "id": 9567,
+      "small": "http://picsum.photos/100/100",
+      "medium": "http://picsum.photos/200/200",
+      "large": "http://picsum.photos/300/300"
+    },
+    "description": "Voluptatem ipsum nisi error occaecati voluptatibus consectetur neque aut.",
+    "createdDate": "2022-02-06T18:55:28.632Z",
+    "isActive": true
+  },
+  {
+    "id": 6,
+    "categoryId": 5,
+    "name": "Handmade Wooden Table",
+    "price": 94.68,
+    "image": {
+      "id": 8247,
+      "small": "http://picsum.photos/100/100",
+      "medium": "http://picsum.photos/200/200",
+      "large": "http://picsum.photos/300/300"
+    },
+    "description": "Est et ea sed modi ullam repellat odit.",
+    "createdDate": "2021-12-30T05:18:40.931Z",
+    "isActive": false
+  },
+  {
+    "id": 7,
+    "categoryId": 1,
+    "name": "Rustic Soft Fish",
+    "price": 67.62,
+    "image": {
+      "id": 4090,
+      "small": "http://picsum.photos/100/100",
+      "medium": "http://picsum.photos/200/200",
+      "large": "http://picsum.photos/300/300"
+    },
+    "description": "Mollitia aspernatur modi et rerum in libero et qui.",
+    "createdDate": "2021-11-14T20:03:47.763Z",
+    "isActive": true
+  },
+  {
+    "id": 8,
+    "categoryId": 4,
+    "name": "Tasty Fresh Towels",
+    "price": 79.2,
+    "image": {
+      "id": 6821,
+      "small": "http://picsum.photos/100/100",
+      "medium": "http://picsum.photos/200/200",
+      "large": "http://picsum.photos/300/300"
+    },
+    "description": "Error qui aspernatur reprehenderit odio veritatis libero vel.",
+    "createdDate": "2021-10-25T10:32:17.894Z",
+    "isActive": false
+  },
+  {
+    "id": 9,
+    "categoryId": 3,
+    "name": "Incredible Soft Hat",
+    "price": 51.14,
+    "image": {
+    "id": 4134,
+      "small": "http://picsum.photos/100/100",
+      "medium": "http://picsum.photos/200/200",
+      "large": "http://picsum.photos/300/300"
+    },
+    "description": "Est quia voluptas repellendus et doloremque.",
+    "createdDate": "2021-09-06T13:22:11.365Z",
+    "isActive": true
+  },
+  {
+    "id": 10,
+    "categoryId": 2,
+    "name": "Practical Wooden Mouse",
+    "price": 34.12,
+    "image": {
+      "id": 7191,
+      "small": "http://picsum.photos/100/100",
+      "medium": "http://picsum.photos/200/200",
+      "large": "http://picsum.photos/300/300"
+    },
+    "description": "Dolores at ullam impedit tempora accusantium.",
+    "createdDate": "2021-08-18T23:48:05.691Z",
+    "isActive": false
+  }
+]

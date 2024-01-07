@@ -1,0 +1,28 @@
+.login-container{
+    background-color: #fafafa;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .login-box{
+        position: relative;
+        padding: 50px 30px 1rem;
+        background-color: #fdfdfd;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.3) 6px 7px 26px;
+        .login-header{
+            background-color: var(--bs-primary);
+            color: #fafafa;
+            height: 50px;
+            position: absolute;
+            width: calc(100% - 60px);
+            top: 0px;
+            transform: translateY(-50%);
+            border-radius: 0.3rem;
+            font-size: 24px;
+            line-height: 48px;
+            text-align: center;
+        }
+    }
+}
